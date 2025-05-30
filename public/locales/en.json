@@ -1,0 +1,40 @@
+{
+    "common": {
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "retry": "Retry"
+    },
+    "navbar": {
+        "title": "The Holy Quran",
+        "toggleSidebar": "Toggle sidebar",
+        "toggleTheme": "Toggle theme",
+        "language": "Language"
+    },
+    "surah": {
+        "list": {
+            "title": "Surahs",
+            "searchPlaceholder": "Search surahs...",
+            "revelationType": "Revelation",
+            "meccan": "Meccan",
+            "medinan": "Medinan",
+            "versesCount": "{count} verses"
+        },
+        "detail": {
+            "title": "Surah {name}",
+            "transliteration": "Transliteration: {text}",
+            "revelationType": "Revelation Type",
+            "versesCount": "Number of Verses",
+            "verseNumber": "Verse {number}",
+            "translation": "Translation",
+            "arabic": "Arabic",
+            "meccan": "Meccan",
+            "medinan": "Medinan"
+        }
+    },
+    "Sidebar": {
+        "surahs": "surah test",
+        "juz": "juz test",
+        "hizb": "hizb test",
+        "search": "search test"
+    }
+}

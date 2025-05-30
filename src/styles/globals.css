@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Arabic';
+    src: url('/fonts/arabic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-arabic {
+    font-family: 'Arabic', sans-serif;
+}
+
+html.dark body {
+    background-color: #111827;
+    /* same as dark:bg-gray-900 */
+}

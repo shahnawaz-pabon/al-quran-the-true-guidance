@@ -1,0 +1,112 @@
+{
+    "number": 1,
+    "name": {
+        "arabic": "الفاتحة",
+        "english": "Al-Fatihah",
+        "transliteration": "Al-Fātiḥah"
+    },
+    "details": {
+        "revelationType": "Meccan",
+        "numberOfAyahs": 7
+    },
+    "ayahs": [
+        {
+            "number": 1,
+            "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "translations": [
+                {
+                    "language": "english",
+                    "text": "In the name of Allah, the Most Gracious, the Most Merciful."
+                },
+                {
+                    "language": "urdu",
+                    "text": "اللہ کے نام سے جو نہایت مہربان رحم کرنے والا ہے۔"
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+            "translations": [
+                {
+                    "language": "english",
+                    "text": "All praise is due to Allah, Lord of all the worlds."
+                },
+                {
+                    "language": "urdu",
+                    "text": "سب تعریفیں اللہ ہی کے لیے ہیں جو تمام جہانوں کا پروردگار ہے۔"
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+            "translations": [
+                {
+                    "language": "english",
+                    "text": "The Most Gracious, the Most Merciful."
+                },
+                {
+                    "language": "urdu",
+                    "text": "جو نہایت مہربان ہمیشہ رحم کرنے والا ہے۔"
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+            "translations": [
+                {
+                    "language": "english",
+                    "text": "Master of the Day of Judgment."
+                },
+                {
+                    "language": "urdu",
+                    "text": "بدلے کے دن کا مالک ہے۔"
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            "translations": [
+                {
+                    "language": "english",
+                    "text": "You alone we worship, and You alone we ask for help."
+                },
+                {
+                    "language": "urdu",
+                    "text": "ہم صرف تیری ہی عبادت کرتے ہیں اور صرف تجھ ہی سے مدد چاہتے ہیں۔"
+                }
+            ]
+        },
+        {
+            "number": 6,
+            "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+            "translations": [
+                {
+                    "language": "english",
+                    "text": "Guide us on the Straight Path."
+                },
+                {
+                    "language": "urdu",
+                    "text": "ہمیں سیدھے راستے پر چلا۔"
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+            "translations": [
+                {
+                    "language": "english",
+                    "text": "The path of those upon whom You have bestowed Your favor, not of those who have evoked Your anger or of those who are astray."
+                },
+                {
+                    "language": "urdu",
+                    "text": "ان لوگوں کا راستہ جن پر تو نے انعام کیا، نہ کہ ان کا جن پر غضب کیا گیا اور نہ گمراہوں کا۔"
+                }
+            ]
+        }
+    ]
+}

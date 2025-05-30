@@ -1,0 +1,38 @@
+{
+    "common": {
+        "loading": "جاري التحميل...",
+        "error": "حدث خطأ",
+        "retry": "إعادة المحاولة"
+    },
+    "navbar": {
+        "title": "القرآن الكريم",
+        "toggleSidebar": "تبديل الشريط الجانبي",
+        "toggleTheme": "تبديل المظهر",
+        "language": "اللغة"
+    },
+    "surah": {
+        "list": {
+            "title": "السور",
+            "searchPlaceholder": "ابحث عن سورة...",
+            "revelationType": "نوع الوحي",
+            "meccan": "مكية",
+            "medinan": "مدنية",
+            "versesCount": "{count} آيات"
+        },
+        "detail": {
+            "title": "سورة {name}",
+            "transliteration": "التعريب: {text}",
+            "revelationType": "نوع الوحي",
+            "versesCount": "عدد الآيات",
+            "verseNumber": "آية {number}",
+            "translation": "الترجمة",
+            "arabic": "العربية"
+        }
+    },
+    "Sidebar": {
+        "surahs": "surah test",
+        "juz": "juz test",
+        "hizb": "hizb test",
+        "search": "search test"
+    }
+}
