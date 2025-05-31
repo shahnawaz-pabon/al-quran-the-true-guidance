@@ -1,4 +1,4 @@
-import { Inter, Noto_Sans_Arabic } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
@@ -13,11 +13,6 @@ import { routing } from '@/i18n/routing';
 const inter = Inter({
     subsets: ['latin'],
     variable: '--font-inter',
-});
-
-const notoSansArabic = Noto_Sans_Arabic({
-    subsets: ['arabic'],
-    variable: '--font-arabic',
 });
 
 export const metadata: Metadata = {
@@ -48,7 +43,7 @@ export default async function RootLayout({
                 // disableTransitionOnChange
             >
                 <SidebarProvider>
-                    <div className="flex h-screen overflow-hidden">
+                    <div className="flex h-screen overflow-hidden" lang={locale}>
                         <Sidebar locale={locale} />
                         <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
                             <Navbar locale={locale} />

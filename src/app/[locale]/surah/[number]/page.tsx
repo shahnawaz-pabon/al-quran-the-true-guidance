@@ -62,7 +62,7 @@ export default async function SurahDetailPage({ params }: SurahDetailPageProps) 
                                 </div>
 
                                 <div className="text-right">
-                                    <p className="text-2xl font-arabic mb-2 leading-loose">
+                                    <p className="text-2xl font-arabic mb-2 leading-loose" lang='ar'>
                                         {ayah.arabic}
                                     </p>
                                     <div className="mt-4">

@@ -3,18 +3,52 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Arabic';
-    src: url('/fonts/arabic.woff2') format('woff2');
+    font-family: 'Noto Naksh Arabic';
+    src: url('/fonts/noto-naskh-arabic/400-normal.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
-.font-arabic {
-    font-family: 'Arabic', sans-serif;
+@font-face {
+    font-family: 'Noto Naksh Arabic';
+    src: url('/fonts/noto-naskh-arabic/500-normal.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/fonts/ubuntu/ubuntu-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/fonts/ubuntu/ubuntu-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 html.dark body {
     background-color: #111827;
     /* same as dark:bg-gray-900 */
+}
+
+:lang(ar) {
+    font-family: 'Noto Naksh Arabic', sans-serif;
+}
+
+:lang(ar) strong,
+:lang(ar) b {
+    font-weight: 500;
+}
+
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
 }

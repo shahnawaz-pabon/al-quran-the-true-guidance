@@ -48,7 +48,7 @@ export default async function Home({
                 </div>
               </div>
             </div>
-            <div className="mt-2 text-right text-xl font-arabic">
+            <div className="mt-2 text-right text-xl font-arabic" lang='ar'>
               {surah.name}
             </div>
           </Link>
